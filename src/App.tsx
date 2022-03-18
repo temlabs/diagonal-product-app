@@ -1,7 +1,8 @@
-import { greet } from "./utils/greet";
+import "./styles/main-style.css";
+import Grid from "./Grid";
 
 function App(): JSX.Element {
-  return <h1>{greet("World")}</h1>;
+  return <Grid />;
 }
 
 export default App;
