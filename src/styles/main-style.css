@@ -1,14 +1,37 @@
+.main-grids {
+  width: 100%;
+  background-color: aqua;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: auto auto;
-  background-color: #d8eeff;
-  padding: 10px;
-  width: 400px;
 }
+.left-grid {
+  background-color: blue;
+  width: 400px;
+  margin-left: 30px;
+}
+
+.right-grid {
+  background-color: blueviolet;
+  width: 400px;
+  margin-left: 30px;
+}
+
 .grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
+  position: relative;
+}
+
+.grid-input {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  overflow: hidden;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  font-size: medium;
   text-align: center;
 }
